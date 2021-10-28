@@ -1,0 +1,20 @@
+{
+  "name": "image-segmentation-old-deps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@tensorflow-models/deeplab": "0.1.0",
+    "@tensorflow/tfjs-converter": "1.3.1",
+    "@tensorflow/tfjs-core": "1.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
